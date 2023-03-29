@@ -1,0 +1,1 @@
+export function getRandomInt(n,o){return Math.floor(Math.random()*(o-n)+n)}
