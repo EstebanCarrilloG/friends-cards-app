@@ -1,1 +1,0 @@
-export function renderWindow(e,t,n,d){e.setAttribute("data-wName",d);let r=document.createElement("div");return r.classList.add(t),r.innerHTML=n,e.appendChild(r),r}
