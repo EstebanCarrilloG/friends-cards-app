@@ -1,1 +1,0 @@
-export function gameTitleRender(e){let t=("en"===e?"FRIENDS CARDS":"es"===e?"FRIENDS CARDS":0).split(" ");for(let l=0;l<t.length;l++){let n=document.createElement("div");n.classList.add("main-title-word__container");for(let i=0;i<t[l].length;i++)n.innerHTML+=`<p class = "main-title-word__letter">${t[l][i]}</p>`;gTitle.appendChild(n)}}
